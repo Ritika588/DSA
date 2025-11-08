@@ -11,6 +11,17 @@ void print(int arr[], int n)
     cout << endl;
 }
 
+
+// Sorting after heapifying
+void sorting(int arr[], int n)
+{
+    int size = n;
+    while(size > 1)
+    {
+        
+    }
+}
+
 // Heapify algorithm
 void heapify(int arr[], int n, int i)
 {
@@ -54,6 +65,9 @@ int main()
     }
 
     print(arr, n);
+
+    cout << "Elements in ascending order are: " << endl;
+    sorting(arr, n);
 
     return 0;
 }
