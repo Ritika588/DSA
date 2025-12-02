@@ -31,10 +31,27 @@ class Graph
 };
 
 
+bool checkCycleDFS (map <int, set<int>> &adjList)
+{
+    stack <int> st;
+    map< int, bool> visited;
+
+    for (auto &i : adjList)
+        visited[i] = true;
+
+    for( auto &i : adjList)
+    {
+
+    }
+}
+
+/*  USING BFS
+
 // Track parent
-
-
 // Condition for cycle -> visited = true but not parent
+
+
+
 bool checkCycle(map <int, set<int>> &adjList)
 {
     queue <int> q;
@@ -75,6 +92,7 @@ bool checkCycle(map <int, set<int>> &adjList)
     }
     return false;
 }
+*/
 
 int main()
 {
